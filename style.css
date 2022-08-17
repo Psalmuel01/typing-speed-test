@@ -199,4 +199,16 @@ body {
   .content-box .result-details {
     margin-bottom: 15%;
   }
+
+  .typing-text p {
+    font-size: 14px;
+  }
+
+  .content button {
+    font-size: 11px;
+  }
+
+  .result-details li {
+    font-size: 12.5px;
+  }
 }
