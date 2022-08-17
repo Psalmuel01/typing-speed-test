@@ -148,3 +148,55 @@ body {
 .result-details li b {
   font-weight: 500;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .wrapper .content-box {
+    height: 100%;
+  }
+
+  .content-box .typing-text {
+    max-height: 50vh;
+  }
+
+  .content-box .content {
+    display: block;
+    text-align: center;
+    padding: 5% unset;
+  }
+
+  .content .result-details {
+    margin-bottom: 10%;
+    width: unset;   
+  }
+
+  .result-details li {
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: static;
+  }
+
+  .result-details li:not(:first-child) {
+    border-left: none;
+  }
+
+  .result-details li span {
+    margin: auto;
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 555px) {
+  .content-box .result-details {
+    margin-bottom: 15%;
+  }
+}
